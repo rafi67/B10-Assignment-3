@@ -9,6 +9,7 @@ tailwind.config = {
                 'text-secondary': '#737373',
                 'background-black': '#1C1C1C',
                 'text-hover-black': '#494949',
+                'section-primary': '#F4F4F4',
             },
             fontFamily: {
                 'manrope': ['Manrope', 'sans-serif']
