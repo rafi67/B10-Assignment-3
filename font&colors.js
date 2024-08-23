@@ -10,6 +10,10 @@ tailwind.config = {
                 'background-black': '#1C1C1C',
                 'text-hover-black': '#494949',
                 'section-primary': '#F4F4F4',
+                'card-pink': '#E7C1D3',
+                'card-yellow': '#EFDA6E',
+                'card-green': '#A4DAC3',
+                'card-blue': '#77AAEA',
             },
             fontFamily: {
                 'manrope': ['Manrope', 'sans-serif']
