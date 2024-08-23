@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rinterio</title>
+    <link rel="shortcut icon" class="text-white" href="assets/building.png" type="image/x-icon">
     <!-- DaisUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,10 +15,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- script for font & color setup -->
     <script src="font&colors.js"></script>
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/93df31d784.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="font-manrope">
-    <header></header>
+    <header class="container mx-auto">
+        <!-- navbar -->
+        <div class="navbar bg-base-100">
+            <!-- navbar start -->
+            <div class="navbar-start flex space-x-4">
+                <button class="btn hover:bg-bg-primary rounded-full bg-bg-primary">
+                    <i class="fa-solid fa-arrow-right-long text-black -rotate-45"></i>
+                </button>
+                <a class="text-3xl font-extrabold">Rinterio</a>
+            </div>
+
+            <!-- navbar center -->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="flex space-x-4 menu-horizontal px-1">
+                    <li class="text-text-hover-black font-extrabold"><a class="hover:text-text-hover-black hover:font-extrabold href="#">Home</a></li>
+                    <li class="text-base font-normal text-text-secondary"><a class="hover:text-text-hover-black hover:font-extrabold href="#">Services</a></li>
+                    <li class="text-base font-normal text-text-secondary"><a class="hover:text-text-hover-black hover:font-extrabold href="#">Portfolio</a></li>
+                    <li class="text-base font-normal text-text-secondary"><a class="hover:text-text-hover-black hover:font-extrabold href="#">Blogs</a></li>
+                    <li class="text-base font-normal text-text-secondary"><a class="hover:text-text-hover-black hover:font-extrabold href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- navbar end -->
+            <div class="navbar-end flex space-x-4">
+                <button class="btn rounded-full md:block  hidden">
+                    <i class="fa-solid fa-magnifying-glass text-gray-400"></i>
+                </button>
+                <button class="btn rounded-full md:flex hidden">
+                    <i class="fa-solid fa-cart-shopping text-gray-400"></i>
+                </button>
+                <a class="h-[60px] btn md:flex items-center hidden text-xl font-extrabold text-background-black hover:bg-bg-primary bg-bg-primary rounded-full">
+                    Book Consult
+                    <button class="btn hover:bg-black rounded-full bg-black border-none">
+                        <i class="fa-solid fa-arrow-right-long text-white -rotate-45"></i>
+                    </button>
+                </a>
+                <button class="btn rounded-full lg:hidden block border border-slate-300">
+                    <i class="fa-solid fa-bars text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- banner -->
+         <div class=" mt-6 text-center">
+            <img class="mx-auto" src="assets/banner.png" alt="">
+            <h3 class="mt-6 lg:text-6xl text-3xl lg:font-extrabold font-bold">A barn house of this design has a striking appearance</h3>
+            <p class="text-base font-medium mt-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <a class="md:w-[220px] w-full h-[65px] mt-8 btn hover:bg-bg-primary-light bg-bg-primary-light border-bg-primary rounded-full text-text-primary font-bold">
+                View Details
+                <button class="btn hover:bg-bg-primary rounded-full bg-bg-primary">
+                    <i class="fa-solid fa-arrow-right-long text-black -rotate-45"></i>
+                </button>
+            </a>
+         </div>
+    </header>
     <main></main>
     <footer></footer>
 </body>
