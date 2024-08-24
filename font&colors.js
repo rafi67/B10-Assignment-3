@@ -4,6 +4,7 @@ tailwind.config = {
             colors: {
                 clifford: '#da373d',
                 'bg-primary': '#ABEF5F',
+                'bg-secondary': 'rgba(171, 239, 95, 0.2)',
                 'bg-primary-light': 'rgba(171, 239, 95, 0.5)',
                 'text-primary': '#212121',
                 'text-secondary': '#737373',
