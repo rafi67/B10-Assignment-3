@@ -9,6 +9,7 @@ tailwind.config = {
                 'bg-primary-light': 'rgba(171, 239, 95, 0.5)',
                 'text-primary': '#212121',
                 'text-secondary': '#737373',
+                'footer-text': '#E9E9E9',
                 'background-black': '#1C1C1C',
                 'text-hover-black': '#494949',
                 'section-primary': '#F4F4F4',
@@ -16,6 +17,7 @@ tailwind.config = {
                 'card-yellow': '#EFDA6E',
                 'card-green': '#A4DAC3',
                 'card-blue': '#77AAEA',
+                'nav-text': '#E9E9E9',
             },
             fontFamily: {
                 'manrope': ['Manrope', 'sans-serif']
